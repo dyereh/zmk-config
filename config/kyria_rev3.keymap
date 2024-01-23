@@ -45,10 +45,10 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &bt BT_SEL 2                                   &kp LESS_THAN   &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE   &trans  &trans
-&trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp CARET                                      &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW      &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp AMPERSAND  &trans  &trans  &trans  &trans  &kp ASTERISK    &trans                &trans            &trans           &trans  &trans
-                                    &trans        &trans        &trans         &trans  &trans  &trans  &trans  &trans          &trans                &trans
+&gresc  &kp AT_SIGN      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &bt BT_SEL 2                                           &kp LESS_THAN   &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE   &trans     &trans
+&trans  &kp NUMBER_0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp CARET                                              &kp LEFT_ARROW  &kp DOWN_ARROW        &kp UP_ARROW      &kp RIGHT_ARROW  &kp MINUS  &kp EQUAL
+&trans  &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp AMPERSAND  &trans  &trans  &trans  &trans          &kp ASTERISK    &trans                &trans            &trans           &trans     &trans
+                                       &trans        &trans        &trans         &trans  &trans  &trans  &kp LEFT_SHIFT  &trans          &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;

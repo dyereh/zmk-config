@@ -46,7 +46,7 @@
             bindings = <
 &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &kp GRAVE                                              &kp DOLLAR      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans          &kp TILDE
 &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp CARET                                              &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW       &kp RIGHT_ARROW  &kp UNDERSCORE  &kp EQUAL
-&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE        &kp AMPERSAND  &trans  &trans  &trans  &trans          &kp ASTERISK    &kp MINUS              &kp GREATER_THAN   &kp POUND        &kp AT_SIGN     &kp PLUS
+&kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE        &kp AMPERSAND  &trans  &trans  &trans  &trans          &kp ASTERISK    &kp MINUS              &kp GREATER_THAN   &kp POUND        &kp AT_SIGN     &kp PLUS
                                           &trans        &trans                &trans         &trans  &trans  &trans  &kp LEFT_SHIFT  &kp K_MUTE      &kp C_VOL_DN           &kp C_VOL_UP
             >;
 

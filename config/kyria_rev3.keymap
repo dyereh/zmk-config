@@ -16,6 +16,15 @@
  */
 
 / {
+    macros {
+        ctrl_bkspc: ctrl_bkspc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp BACKSPACE>;
+            label = "CTRL_BKSPC";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -58,6 +67,15 @@
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
